@@ -1,0 +1,14 @@
+* express = Framework web pra node. Alfo como Spring MVC
+* ejs = Engine de reenderização, motor de view de html para usar junto do express
+* nodemon = Reloader de alterações no código. Algo como JRabel
+* commonjs = Modulo para carregamento de modulos (module.)
+* express-load = Biblioteca do express para evitar ficar dando um monte de require
+* body-parser = Modulo responsável por preencher o request.body
+* mocha = Biblioteca para testes
+* supertest = Super Biblioteca para testes
+
+* socket.io = Framework para simplificar o uso da nova tenologia de mensageria entre servidor e o navegador chamada de WebSocket. Inclusive esse framework é capaz de decidir pela implementação do servidor ao qual ele esta batendo se ele deve usar WebSocket (notificação que vem do servidor pro navegador) ou pooling(burro do shrek, onde o navegador fica perguntando para o servidor)
+
+
+Conceito: 
+* Módulos middleware são como filtros do java. Atuam interceptando requisições web antes de chegaram as nossa funções.
